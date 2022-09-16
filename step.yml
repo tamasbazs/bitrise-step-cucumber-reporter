@@ -75,7 +75,6 @@ inputs:
         Description of this input.
 
         Can be Markdown formatted text.
-      is_required: true
   - output_location: $BITRISE_DEPLOY_DIR
     opts:
       title: "Example Step Input"
