@@ -69,16 +69,16 @@ toolkit:
 inputs:
   - report_location: Default Value - you can leave this empty if you want to
     opts:
-      title: "Example Step Input"
-      summary: Summary. No more than 2-3 sentences.
+      title: "Path to Cucumber json report or to Cucumber json report folder"
+      summary: Specify the path to the cucumber reports
       description: |
         Description of this input.
 
         Can be Markdown formatted text.
   - output_location: $BITRISE_DEPLOY_DIR
     opts:
-      title: "Example Step Input"
-      summary: Summary. No more than 2-3 sentences.
+      title: "Output directory for the html result"
+      summary: Specify the output directory where the html report should be saved
       description: |
         Description of this input.
 
