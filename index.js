@@ -13,6 +13,7 @@ if(REPORT_LOCATION.slice(-1) != '/') {
         output: OUTPUT_LOCATION+'/cucumber_report.html',
         reportSuiteAsScenarios: true,
         scenarioTimestamp: true,
+        ignoreBadJsonFile: true,
         launchReport: false,
         metadata: {
             "App Version":"0.3.2",
@@ -31,6 +32,7 @@ var options = {
         output: OUTPUT_LOCATION+'/cucumber_report.html',
         reportSuiteAsScenarios: true,
         scenarioTimestamp: true,
+        ignoreBadJsonFile: true,
         launchReport: false,
         metadata: {
             "App Version":"0.3.2",
